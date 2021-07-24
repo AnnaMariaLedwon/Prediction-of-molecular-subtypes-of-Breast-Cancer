@@ -1,0 +1,32 @@
+Neural Network Classifier for PAM50 proteins
+Confusion Matrix and Statistics
+
+               Reference
+Prediction      Basal-like HER2-enriched Luminal A Luminal B
+  Basal-like             4             0         1         0
+  HER2-enriched          0             2         0         1
+  Luminal A              0             0         3         3
+  Luminal B              0             0         1         6
+
+Overall Statistics
+                                          
+               Accuracy : 0.7143          
+                 95% CI : (0.4782, 0.8872)
+    No Information Rate : 0.4762          
+    P-Value [Acc > NIR] : 0.02391         
+                                          
+                  Kappa : 0.6             
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Basal-like Class: HER2-enriched Class: Luminal A Class: Luminal B
+Sensitivity                     1.0000              1.00000           0.6000           0.6000
+Specificity                     0.9412              0.94737           0.8125           0.9091
+Pos Pred Value                  0.8000              0.66667           0.5000           0.8571
+Neg Pred Value                  1.0000              1.00000           0.8667           0.7143
+Prevalence                      0.1905              0.09524           0.2381           0.4762
+Detection Rate                  0.1905              0.09524           0.1429           0.2857
+Detection Prevalence            0.2381              0.14286           0.2857           0.3333
+Balanced Accuracy               0.9706              0.97368           0.7063           0.7545
