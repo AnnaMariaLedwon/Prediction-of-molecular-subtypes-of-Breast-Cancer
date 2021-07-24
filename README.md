@@ -31,22 +31,18 @@ All *Prediction of molecular subtypes of Breast Cancer* code you can find in **B
 * *Lasso_proteins_volinplot.pdf* : visualisation of the lasso proteins using violin plot;
 * *Lasso_proteins.csv* : table of protein ID, gene ID, description and times from lasso regression were created using biomaRt package;
 
-#### 4.     Train & test data for Lasso proteins:
+#### 4. Models buildings for Lasso proteins:
 * *Lasso_train&testData.pdf* : information about the number of patients of breast cancer subtype in the training and testing set
-
-#### 5. Models buildings for Lasso proteins:
 * *Lasso_SVM_results.txt* : confusion matrix for Support Vector Machine Model
 * *Lasso_RandomForest_ErrorsTrees.pdf* plot for Random Forest Model
 * *Lasso_RandomForest_results.txt* : confusion matrix for Random Forest Model
 * *Lasso_NeuralNetworkClassifier.pdf* : visualization of Neural Network
 * *Lasso_NeuralNetworkClassifier_results.txt* :confusion matrix for Neural Network Classifier
 
-#### 6.   Train & test data for PAM50 proteins:
+#### 5. Models buildings for PAM50 proteins:
 * *PAM50_train&testData.pdf* : information about the number of patients of breast cancer subtype in the training and testing set
 * *PAM50_proteins_boxplot.pdf* : visualisation of the PAM50 proteins using boxplot;
 * *PAM50_proteins_volinplot.pdf* : visualisation of the PAM50 proteins using violin plot;
-
-#### 7. Models buildings for PAM50 proteins:
 * *PAM50_SVM_results.txt* : confusion matrix for Support Vector Machine Model
 * *PAM50_RandomForest_ErrorsTrees.pdf* plot for Random Forest Model
 * *PAM50_RandomForest_results.txt* : confusion matrix for Random Forest Model
